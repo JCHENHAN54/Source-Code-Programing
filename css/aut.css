@@ -1,0 +1,146 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', cursive;
+}
+
+body
+{
+	background: #111;
+}
+
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 100px 
+	;
+	z-index: 1000;
+}
+
+header .Logo
+{
+	position: relative;
+	font-size: 3em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-shadow:0px 0px 8px #F0FFF0, 0px 0px 42px #F0FFF0, 0px 0px 72px #F0FFF0;
+
+}
+
+header .toggle
+{
+	max-width: 60px;
+	cursor: pointer;
+}
+
+header .toggle img
+{
+	max-width: 100%;
+}
+
+.banner
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+.banner:before
+{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 400px;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+}
+
+.banner video
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.1;
+}
+
+
+.banner .textBox
+{
+	position: relative;
+	max-width: 550px;
+	z-index: 2;
+}
+
+.banner .textbox h2
+{
+	color: #fff;
+	font-size: 3em;
+	margin: 5px 0 20px;
+}
+
+.banner .textbox h3
+{
+	color: #fff;
+	font-size: 2em;
+	margin: 5px 0 20px;
+}
+
+.banner .textbox p
+{
+	color: #fff;
+	font-size: 1em;
+	margin: 5px 0 20px;
+}
+
+.banner .textbox a
+{
+	position: relative;
+	display: inline-block;
+	background: #fff;
+	color: #111;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 500;
+	transform: translateY(20px);
+	box-shadow: 0px 0px 8px white, 0px 0px 12px white, 0px 0px 36px white;
+
+}
+
+.banner .videoBX
+{
+	position: relative;
+	background: #fff;
+	margin-left: 40px;
+	width: 600PX;
+	height: 400px;
+	transform: translateX(5%);
+
+	z-index: 1;
+}
+
+
+.banner .videoBX video
+{
+	opacity: 1;
+}
