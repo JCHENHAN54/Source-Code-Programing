@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>内心世界</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 10px;
+  background-color: black;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  height: 120%
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  height:100%
+}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/内心世界.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script>
+  var bleep = new Audio();
+  bleep.src = "music/h.mp3";
+  </script>
+
+  <link rel="shortcut icon" href=" ico.ico" />
+
+</head>
+
+<header>
+  
+    <div class="site-logo">
+    <img src="logo.png" alt="logo">
+  </div>
+
+</header>
+
+
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video/video.mp4" type="video/mp4" loop ="loop">
+</video>
+
+<div class="content">
+<section>
+  <h1>
+    <span>W</span>
+    <span>E</span>
+    <span>L</span>
+    <span>C</span>
+    <span>O</span>
+    <span>M</span>
+    <span>E</span>
+    
+  </h1>
+
+  <p class="p1">
+
+  本网站用css3，html5，外加JavaScript编写，需要源代码的同学请关注本作者的Instagram发送源代码即可免费获得。<br>
+
+  
+  <p class="p2">Copyright ©2020-2025 SAPP CHEN Corporation, All Rights Reserved.</p>
+
+  </p>
+
+  <ul>
+    <li><a class="a1" href="https://www.instagram.com/jchen_han54/?hl=es"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a></li>
+    <li><a class="a2" href="https://www.facebook.com/me/"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a></li>
+    <li><a class="a3" href="#"><i class="fa fa-music fa-4x" aria-hidden="true" onclick="bleep.play()"></i></a></li>
+  </ul>
+</section>
+</div>
+
+<div class="wrapper">
+  <div class="btn">
+    <button type="button">
+     <a class="ah" href="more.html" target="2">More</a> 
+  </button>
+  </div>
+</div>
+</body>
+</html>
+
+
